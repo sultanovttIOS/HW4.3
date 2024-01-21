@@ -32,8 +32,12 @@ class MakerView {
         view.layer.cornerRadius = cornerRadius
         return view
     }
+    
     func makerTf(placeholder: String,
-                 textColor: UIColor = .black, leftViewMode: UITextField.ViewMode = .always, cornerRadius: CGFloat, backgroundColor: UIColor) -> UITextField {
+                 textColor: UIColor = .black,
+                 leftViewMode: UITextField.ViewMode = .always,
+                 cornerRadius: CGFloat,
+                 backgroundColor: UIColor) -> UITextField {
         let tf = UITextField()
         tf.placeholder = placeholder
         tf.textColor = textColor
